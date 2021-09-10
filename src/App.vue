@@ -7,9 +7,24 @@ import naive from "naive-ui";
 </script>
 
 <template>
-  <img alt="Vue logo" src="./assets/logo.png" />
-  <HelloWorld msg="Hello Vue 3 + TypeScript + Vite" />
-  <MyInfo email="xuedagong@qq.com"/>
+  <n-space vertical size="large">
+    <n-layout has-sider>
+      <n-layout-sider
+        collapse-mode="transform"
+        :width="240"
+        show-trigger="bar"
+        content-style="padding: 24px;"
+        bordered
+      >
+       <router-link to="/">Go to Home</router-link> 
+       <br>
+       <router-link to="/about">Go to About</router-link>
+       <br>
+       <router-link to="/table">Go to TableList</router-link>
+      </n-layout-sider>
+      <n-layout-content style="padding:10px;border:1px solid;"><router-view></router-view></n-layout-content>
+    </n-layout>
+  </n-space>
 </template>
 
 <style>

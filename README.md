@@ -16,3 +16,9 @@ Since TypeScript cannot handle type information for `.vue` imports, they are shi
 git config --global https.https://github.com.proxy http://127.0.0.1:7890
 
 git config --global http.https://github.com.proxy http://127.0.0.1:7890
+
+
+TODO
+add route
+
+cnpm install vue-router@4
