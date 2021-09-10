@@ -3,6 +3,7 @@
 // Check out https://v3.vuejs.org/api/sfc-script-setup.html#sfc-script-setup
 import HelloWorld from './components/HelloWorld.vue'
 import MyInfo from './components/MyInfo.vue'
+import naive from "naive-ui";
 </script>
 
 <template>
